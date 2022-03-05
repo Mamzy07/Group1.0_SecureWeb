@@ -36,9 +36,20 @@
 </nav>
 <br>
 <div class="introduction">
-        <h1>Welcome, Please Don't Leak Thanks!</h1>
+    <h1>Welcome, Please Don't Leak Thanks!</h1>
 </div>
+
+<div id="images_div">
+    <h3> A cute picture of en elephant</h3>
+
+    <img src="./img/cute%20elephant.jpg" alt="cute elephant">
+
+    <h3> A cute picture of a monkeh </h3>
+
+    <img src="./img/cute%20monkey.jpg" alt="cute menkeh">
+</div>
+
 <a href="hello-servlet">Animal Research</a>
-<p>hello 2</p>
+
 </body>
 </html>
