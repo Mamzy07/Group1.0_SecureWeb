@@ -12,6 +12,8 @@
     <title>Home</title>
 </head>
 <body>
+<-! add redirect back to login page if session does not exist -->
+
 <nav class="navbar">
     <div class="nav">
 
@@ -29,6 +31,7 @@
         <li class="link-item"><a href="#" class="link">Animal I</a></li>
         <li class="link-item"><a href="#" class="link">Animal II</a></li>
         <li class="link-item"><a href="#" class="link">Animal III</a></li>
+        <li class="link-item"><a href="#" class="link">Animal III</a></li>
     </ul>
 </nav>
 <br>
@@ -36,6 +39,6 @@
         <h1>Welcome, Please Don't Leak Thanks!</h1>
 </div>
 <a href="hello-servlet">Animal Research</a>
-<p>hi</p>
+<p>hello</p>
 </body>
 </html>
