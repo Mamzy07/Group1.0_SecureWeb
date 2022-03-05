@@ -39,6 +39,6 @@
         <h1>Welcome, Please Don't Leak Thanks!</h1>
 </div>
 <a href="hello-servlet">Animal Research</a>
-<p>hello 2</p>
+<p>Hello 1</p>
 </body>
 </html>
