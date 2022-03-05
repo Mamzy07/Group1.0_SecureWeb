@@ -48,6 +48,11 @@
     transition: .5s;
 }
 
+#images_div{
+    text-align: center;
+    /*align-items: center;*/
+}
+
 .link:hover{
     opacity: 1;
 }
