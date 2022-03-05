@@ -8,8 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <style><%@include file="/WEB-INF/css/home.css"%></style>
+<style><%@include file="/WEB-INF/css/print.css"%></style>
+
 <head>
     <title>Home</title>
+
 </head>
 <body>
 <-! add redirect back to login page if session does not exist -->
