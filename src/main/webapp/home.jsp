@@ -14,9 +14,23 @@
     <title>Home</title>
 
 </head>
-<body>
-<-! add redirect back to login page if session does not exist -->
+<body oncontextmenu="return false"
+      onselectstart="return false"
+      oncut="return false"
+      oncopy="return false"
+      onpaste="return false"
+      ondrag="return false"
+      ondrop="return false"
+      ondragstart="return false"
+>
+<%
+    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
 
+    if(null == session.getAttribute("name")){
+    response.sendRedirect("index.jsp");
+
+}
+%>
 <nav class="navbar">
     <div class="nav">
 
@@ -45,7 +59,7 @@
 <div id="images_div">
     <h3> A cute picture of en elephant</h3>
 
-    <img src="./img/cute%20elephant.jpg" alt="cute elephant">
+    <img src="./img/cute%20elephant.jpg" alt="cute elephant" >
 
     <h3> A cute picture of a monkeh </h3>
 

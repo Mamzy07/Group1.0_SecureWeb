@@ -9,7 +9,7 @@ public class logoutServlet extends HttpServlet {
         HttpSession session = request.getSession();
         session.removeAttribute("username");
         session.invalidate();
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("abcdf");
 
     }
 }

@@ -14,8 +14,9 @@ public class loginServlet extends HttpServlet {
 
         if (uname.equals("123") && pass.equals("123")){
             HttpSession session = request.getSession();
+            session.setAttribute("name", request.getParameter("uname"));
             // add username cookie
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("no-leaks");
         }else{
             request.setAttribute("message", "Invalid Username or Password"); // Will be available as ${message}
             request.getRequestDispatcher("index.jsp").forward(request,response);
