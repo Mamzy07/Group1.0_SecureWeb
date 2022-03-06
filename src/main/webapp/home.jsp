@@ -53,7 +53,7 @@
 </nav>
 <br>
 <div class="introduction">
-    <h1>Welcome, Please Don't Leak Thanks!</h1>
+    <h1>Welcome, ${name}. Please Don't Leak Thanks!</h1>
 </div>
 
 <div id="images_div">

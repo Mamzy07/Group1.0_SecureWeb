@@ -8,6 +8,10 @@ import javax.servlet.annotation.*;
 public class loginServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        response.sendRedirect("index.jsp");
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
         String uname = request.getParameter("uname");
         String pass = request.getParameter("pass");

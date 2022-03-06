@@ -8,7 +8,7 @@
 </head>
 <body>
 <h2>LOGIN</h2>
-<form action="login-servlet">
+<form action="login-servlet" method="post">
     <label>User Name</label>
     <input type="text" name="uname" ><br>
 
