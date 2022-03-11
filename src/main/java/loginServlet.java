@@ -16,7 +16,7 @@ public class loginServlet extends HttpServlet {
         String uname = request.getParameter("uname");
         String pass = request.getParameter("pass");
 
-        if (uname.equals("123") && pass.equals("123")){
+        if (uname.equals("admin") && pass.equals("admin") || uname.equals("xander") && pass.equals("123") || uname.equals("richard") && pass.equals("help")) {
             HttpSession session = request.getSession();
             session.setAttribute("name", request.getParameter("uname"));
             // add username cookie
