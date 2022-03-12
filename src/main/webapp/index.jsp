@@ -22,6 +22,26 @@
 
 </form>
 
+<script type='text/javascript'>
+    window.onload = function() {
+        document.onkeydown = function ()
+        {
+            //ctrl + u
+            var a = window.event || arguments[0];
+            if ((a.ctrlKey) && (a.keyCode == 85)) {
+                return false;
+            }
+            //f12
+            else if (a.keyCode == 123) {
+                return false;
+            }
+            //shift+f10
+            else if ((a.ctrlKey) && (a.keyCode == 121)) {
+                return false;
+            }
+        }
+    }
+</script>
 </body>
 </html>
 

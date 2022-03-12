@@ -42,11 +42,11 @@
         </div>
     </div>
     <ul class="links-container">
-        <li class="link-item"><a href="home.jsp" class="link">Home</a></li>
-        <li class="link-item"><a href="Animal_I.jsp" class="link">Animal I</a></li>
-        <li class="link-item"><a href="Animal_II.jsp" class="link">Animal II</a></li>
-        <li class="link-item"><a href="Animal_III.jsp" class="link">Animal III</a></li>
-        <li class="link-item"><a href="Animal_IV.jsp" class="link">Animal III</a></li>
+        <li class="link-item"><a href="no-leaks" class="link">Home</a></li>
+        <li class="link-item"><a href="secret1" class="link">Animal I</a></li>
+        <li class="link-item"><a href="secret2" class="link">Animal II</a></li>
+        <li class="link-item"><a href="secret3" class="link">Animal III</a></li>
+        <li class="link-item"><a href="secret4" class="link">Animal IV</a></li>
     </ul>
 </nav>
 <br>
@@ -55,5 +55,25 @@
     <br>
     <img src="./img/monkey.jpg" alt="cute monkey">
 </div>
+<script type='text/javascript'>
+    window.onload = function() {
+        document.onkeydown = function ()
+        {
+            //ctrl + u
+            var a = window.event || arguments[0];
+            if ((a.ctrlKey) && (a.keyCode == 85)) {
+                return false;
+            }
+            //f12
+            else if (a.keyCode == 123) {
+                return false;
+            }
+            //shift+f10
+            else if ((a.ctrlKey) && (a.keyCode == 121)) {
+                return false;
+            }
+        }
+    }
+</script>
 </body>
 </html>

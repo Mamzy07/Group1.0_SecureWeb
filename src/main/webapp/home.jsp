@@ -44,8 +44,8 @@
         </div>
     </div>
     <ul class="links-container">
-        <li class="link-item"><a href="home.jsp" class="link">Home</a></li>
-        <li class="link-item"><a href="Animal_I.jsp" class="link">Animal I</a></li>
+        <li class="link-item"><a href="no-leaks" class="link">Home</a></li>
+        <li class="link-item"><a href="secret1" class="link">Animal I</a></li>
         <li class="link-item"><a href="#" class="link">Animal II</a></li>
         <li class="link-item"><a href="#" class="link">Animal III</a></li>
         <li class="link-item"><a href="#" class="link">Animal III</a></li>
@@ -59,6 +59,27 @@
 
 
 <a href="hello-servlet">Doctor Xavier's Animal Research</a>
+
+<script type='text/javascript'>
+    window.onload = function() {
+        document.onkeydown = function ()
+        {
+            //ctrl + u
+            var a = window.event || arguments[0];
+            if ((a.ctrlKey) && (a.keyCode == 85)) {
+                return false;
+            }
+            //f12
+            else if (a.keyCode == 123) {
+                return false;
+            }
+            //shift+f10
+            else if ((a.ctrlKey) && (a.keyCode == 121)) {
+                return false;
+            }
+        }
+    }
+</script>
 
 </body>
 </html>

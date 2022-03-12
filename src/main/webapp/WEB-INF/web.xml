@@ -22,6 +22,38 @@
         <servlet-name>login-jsp</servlet-name>
         <url-pattern>/abcdf</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>animal1-jsp</servlet-name>
+        <jsp-file>/Animal_I.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>animal1-jsp</servlet-name>
+        <url-pattern>/secret1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>animal2-jsp</servlet-name>
+        <jsp-file>/Animal_II.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>animal2-jsp</servlet-name>
+        <url-pattern>/secret2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>animal3-jsp</servlet-name>
+        <jsp-file>/Animal_III.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>animal3-jsp</servlet-name>
+        <url-pattern>/secret3</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>animal4-jsp</servlet-name>
+        <jsp-file>/Animal_IV.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>animal4-jsp</servlet-name>
+        <url-pattern>/secret4</url-pattern>
+    </servlet-mapping>
 </web-app>
 
 
