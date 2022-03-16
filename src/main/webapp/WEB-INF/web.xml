@@ -65,7 +65,10 @@
         <servlet-name>logout-servlet</servlet-name>
         <servlet-class>a2.grp1.servlet.logoutServlet</servlet-class>
     </servlet>
-
+    <servlet>
+        <servlet-name>hello-servlet</servlet-name>
+        <servlet-class>a2.grp1.servlet.HelloServlet</servlet-class>
+    </servlet>
 </web-app>
 
 
