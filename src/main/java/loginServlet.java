@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 
-@WebServlet(name = "loginServlet",value = "/login-servlet")
+
 public class loginServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
