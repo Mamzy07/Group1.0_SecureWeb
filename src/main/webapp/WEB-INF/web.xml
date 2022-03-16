@@ -54,6 +54,9 @@
         <servlet-name>animal4-jsp</servlet-name>
         <url-pattern>/secret4</url-pattern>
     </servlet-mapping>
+    <session-config>
+        <session-timeout>2</session-timeout>
+    </session-config>
 </web-app>
 
 

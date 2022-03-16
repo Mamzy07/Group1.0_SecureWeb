@@ -25,7 +25,7 @@
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
 
     if(null == session.getAttribute("name")){
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("abcdf");
 
     }
 %>

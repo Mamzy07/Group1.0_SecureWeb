@@ -27,7 +27,7 @@
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
 
     if(null == session.getAttribute("name")){
-    response.sendRedirect("index.jsp");
+    response.sendRedirect("abcdf");
 
 }
 %>
@@ -46,9 +46,9 @@
     <ul class="links-container">
         <li class="link-item"><a href="no-leaks" class="link">Home</a></li>
         <li class="link-item"><a href="secret1" class="link">Animal I</a></li>
-        <li class="link-item"><a href="#" class="link">Animal II</a></li>
-        <li class="link-item"><a href="#" class="link">Animal III</a></li>
-        <li class="link-item"><a href="#" class="link">Animal III</a></li>
+        <li class="link-item"><a href="secret2" class="link">Animal II</a></li>
+        <li class="link-item"><a href="secret3" class="link">Animal III</a></li>
+        <li class="link-item"><a href="secret4" class="link">Animal IV</a></li>
     </ul>
 </nav>
 <br>
