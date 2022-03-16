@@ -57,6 +57,15 @@
     <session-config>
         <session-timeout>2</session-timeout>
     </session-config>
+    <servlet>
+        <servlet-name>login-servlet</servlet-name>
+        <servlet-class>a2.grp1.servlet.loginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>logout-servlet</servlet-name>
+        <servlet-class>a2.grp1.servlet.logoutServlet</servlet-class>
+    </servlet>
+
 </web-app>
 
 
