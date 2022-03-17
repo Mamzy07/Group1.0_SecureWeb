@@ -9,3 +9,5 @@ which is /home/itec4020grp1/website/)
 	rm -r /home/itec4020grp1/website/WEB-INF/classes/a2/grp1/servlet/a2
 - examine our web application from the browser with 
 	http://sit.itec.yorku.ca:8080/itec4020grp1
+	- login credentials are 
+		admin:admin
